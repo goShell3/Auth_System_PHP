@@ -1,5 +1,7 @@
 <?php session_start();
-include('../config/db.php');
+include __DIR__ . '/../config/db.php';
 
-session_destroy(); header("Location: login.php"); exit(); ?>
+session_destroy(); 
+header("Location: login.php"); 
+exit();
 

@@ -3,7 +3,8 @@
 $host = 'localhost';
 $db = 'auth_system';
 $user = 'root';
-$pass = '';
+$pass = "@goSehll369";
+
 
 
 $conn = new mysqli($host, $user, $pass, $db);
